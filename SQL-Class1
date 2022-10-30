@@ -1,3 +1,5 @@
+-- Active: 1667110452880@@127.0.0.1@3306
+
 --Command to create databse
 CREATE DATABASE BigDataBootcamp;
 
@@ -8,4 +10,21 @@ create DATABASE TestDB;
 show databases;
 
 --drop a database
-drop DATABASE TestDB
+drop DATABASE TestDB;
+
+
+-- go inside a specific DATABASE
+use BigDataBootcamp;
+
+--create a table 
+create table if not exists employee
+(
+    id int,
+    name VARCHAR(50)
+);
+
+-- command to list all tables
+show tables;
+
+-- command to show table create command query
+show create table employee; 
