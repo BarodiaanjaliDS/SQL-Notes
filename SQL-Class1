@@ -1,0 +1,11 @@
+--Command to create databse
+CREATE DATABASE BigDataBootcamp;
+
+create DATABASE TestDB;
+
+
+--command to list all database
+show databases;
+
+--drop a database
+drop DATABASE TestDB
